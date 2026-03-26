@@ -1,0 +1,17 @@
+# SpectraLoom — Python Dependencies
+# Install with:  pip install -r requirements.txt
+# For PyTorch with CUDA, see: https://pytorch.org/get-started/locally/
+
+torch>=2.10.0
+numpy>=2.2.6
+transformers>=5.3.0
+tqdm>=4.67.3
+matplotlib>=3.10.8
+h5py>=3.15.1
+scipy>=1.14.1
+nltk>=3.9.3
+rouge>=1.0.1
+evaluate>=0.4.6
+sacrebleu>=2.6.0
+bert-score>=0.3.12
+pandas>=3.0.1

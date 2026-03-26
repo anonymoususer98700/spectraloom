@@ -1,0 +1,64 @@
+======================================================================
+  EEG RELIANCE TEST RESULTS
+  Checkpoint : ./checkpoints/decoding/best/task1v1_task2v1_task3v1_finetune_EEGConformer_skipstep1_b32_20_30_0.0001_2e-05_unique_sent_EEG.pt
+  Config     : ./config/decoding/task1v1_task2v1_task3v1_finetune_EEGConformer_skipstep1_b32_20_30_0.0001_2e-05_unique_sent_EEG.json
+  Timestamp  : 20260326_043505
+======================================================================
+
+Metric                                  Real_EEG      Shuffled_EEG          Zero_EEG
+------------------------------------------------------------------------------------
+BLEU-1 (corpus, %)                       15.4826           15.4127            7.1892
+BLEU-2 (corpus, %)                         4.406            4.3569             2.163
+BLEU-3 (corpus, %)                        1.3762            1.3209            0.8031
+BLEU-4 (corpus, %)                        0.4586            0.3913               0.0
+Mean Sentence BLEU-1 (%)                 12.3682           12.3427            8.0326
+SacreBLEU score                            0.537            0.4576            0.2121
+WER (%)                                 101.2709          101.0899           95.6168
+CER (%)                                  81.1661           81.0126           79.8516
+======================================================================
+
+
+--- Real_EEG ---
+  condition: Real_EEG
+  BLEU-1 (corpus, %): 15.4826
+  BLEU-2 (corpus, %): 4.406
+  BLEU-3 (corpus, %): 1.3762
+  BLEU-4 (corpus, %): 0.4586
+  Mean Sentence BLEU-1 (%): 12.3682
+  SacreBLEU score: 0.537
+  ROUGE scores: {'rouge-1': {'r': 0.14168906312248172, 'p': 0.1548821672279894, 'f': 0.1438562095764334}, 'rouge-2': {'r': 0.012505398129232962, 'p': 0.01247957908305436, 'f': 0.012195559439103602}, 'rouge-l': {'r': 0.12141194770299177, 'p': 0.13084179481071317, 'f': 0.12237548356095126}}
+  WER (%): 101.2709
+  CER (%): 81.1661
+  elapsed_seconds: 422.1
+
+--- Shuffled_EEG ---
+  condition: Shuffled_EEG
+  BLEU-1 (corpus, %): 15.4127
+  BLEU-2 (corpus, %): 4.3569
+  BLEU-3 (corpus, %): 1.3209
+  BLEU-4 (corpus, %): 0.3913
+  Mean Sentence BLEU-1 (%): 12.3427
+  SacreBLEU score: 0.4576
+  ROUGE scores: {'rouge-1': {'r': 0.140843656725734, 'p': 0.1548302065716723, 'f': 0.14348390702160566}, 'rouge-2': {'r': 0.012277155267715284, 'p': 0.01242234590456801, 'f': 0.012066732361772947}, 'rouge-l': {'r': 0.1206547610557945, 'p': 0.13075696138821258, 'f': 0.12201662639753423}}
+  WER (%): 101.0899
+  CER (%): 81.0126
+  elapsed_seconds: 443.6
+
+--- Zero_EEG ---
+  condition: Zero_EEG
+  BLEU-1 (corpus, %): 7.1892
+  BLEU-2 (corpus, %): 2.163
+  BLEU-3 (corpus, %): 0.8031
+  BLEU-4 (corpus, %): 0.0
+  Mean Sentence BLEU-1 (%): 8.0326
+  SacreBLEU score: 0.2121
+  ROUGE scores: {'rouge-1': {'r': 0.10790373822284954, 'p': 0.16067163130532708, 'f': 0.12318719467007055}, 'rouge-2': {'r': 0.012967360278024899, 'p': 0.020015455950541047, 'f': 0.015028554960940797}, 'rouge-l': {'r': 0.09748760495345646, 'p': 0.1425460165800212, 'f': 0.1104940572924464}}
+  WER (%): 95.6168
+  CER (%): 79.8516
+  elapsed_seconds: 268.0
+
+
+--- INTERPRETATION ---
+  Real vs Shuffled EEG BLEU-1 drop : 0.0699 %
+  Real vs Zero EEG    BLEU-1 drop : 8.2934 %
+  GOOD: Large drop vs zero EEG – model is significantly relying on EEG signal.

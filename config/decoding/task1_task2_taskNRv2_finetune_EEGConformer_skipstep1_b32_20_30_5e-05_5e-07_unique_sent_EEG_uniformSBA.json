@@ -1,0 +1,33 @@
+{
+    "model_name": "EEGConformer",
+    "task_name": "task1_task2_taskNRv2",
+    "num_epoch_step1": 20,
+    "num_epoch_step2": 30,
+    "learning_rate_step1": 5e-05,
+    "learning_rate_step2": 5e-07,
+    "batch_size": 32,
+    "save_path": "./checkpoints/decoding",
+    "train_input": "EEG",
+    "subjects": "ALL",
+    "eeg_type": "GD",
+    "eeg_bands": [
+        "_t1",
+        "_t2",
+        "_a1",
+        "_a2",
+        "_b1",
+        "_b2",
+        "_g1",
+        "_g2"
+    ],
+    "cuda": "cuda:0",
+    "skip_step_one": true,
+    "load_step1_checkpoint": false,
+    "use_random_init": false,
+    "ablate_sba": "uniform",
+    "ablate_multiscale": false,
+    "ablate_cab": false,
+    "ablate_label_smoothing": false,
+    "conv_kernels": "1,3,5",
+    "feature_level": "word"
+}

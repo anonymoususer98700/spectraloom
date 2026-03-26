@@ -1,0 +1,65 @@
+# ============================================================
+#  SpectraLoom — .gitignore
+#  Production-ready rules for GitHub publishing
+# ============================================================
+
+# ──────────────  Data & Checkpoints (large files)  ──────────
+# Raw ZuCo .mat files and preprocessed pickle datasets
+Data/
+dataset/
+
+# Model checkpoints — host separately (Google Drive, Hugging Face Hub, etc.)
+checkpoints/
+
+
+# ──────────────  Research Paper (private)  ──────────────────
+RESEARCH_PAPER.md
+RESEARCH_PAPER.tex
+
+# ──────────────  Python Artifacts  ──────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ──────────────  Editor / IDE  ──────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ──────────────  OS Files  ──────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+# ──────────────  Temporary & Debug  ─────────────────────────
+table_metrics.txt
+*.log
+*.tmp
+*.bak
+
+# ──────────────  Jupyter / IPython  ─────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ──────────────  Environment Variables  ─────────────────────
+.env
+.env.local
