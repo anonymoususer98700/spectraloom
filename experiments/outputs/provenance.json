@@ -1,0 +1,28 @@
+{
+  "captured_unix_time": 1790050472.380576,
+  "cuda_runtime": "12.8",
+  "datasets": {
+    "task1-SR-dataset.pickle": {
+      "bytes": 1217276984,
+      "sha256": "788726dfa584ee959f8a354d127beb0f27dfd5628e8acad26cd80a946ac0bb29"
+    },
+    "task2-NR-dataset.pickle": {
+      "bytes": 1101371574,
+      "sha256": "743200e4029e8019061df3d0cfa554ec7590113d2f01ca6cba3e17ec55c3e5db"
+    },
+    "task2-TSR-2.0-dataset.pickle": {
+      "bytes": 1628161490,
+      "sha256": "b0d790966f337139573058bb12f199be8a6f2da33adbe4a24c77886668a1cd4b"
+    },
+    "task3-TSR-dataset.pickle": {
+      "bytes": 1059205522,
+      "sha256": "5fc9fc8db184071d91cd21d88469413186b63bc2d93116a461b31a38aa262cd8"
+    }
+  },
+  "gpu_driver": "NVIDIA GeForce RTX 5080, 591.86",
+  "numpy": "2.2.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "torch": "2.10.0+cu128",
+  "transformers": "5.3.0"
+}

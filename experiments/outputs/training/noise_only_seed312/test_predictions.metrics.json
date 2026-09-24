@@ -1,0 +1,33 @@
+{
+  "bleu_1": 16.9049479574294,
+  "bleu_2": 4.256358341984566,
+  "bleu_3": 1.2864950767272916,
+  "bleu_4": 0.3781628732006019,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "cer": 78.38754022557565,
+  "checkpoint": "C:\\Users\\USER\\Desktop\\Design Projects and Research Papers\\EEG-to-Text-Generation-3\\experiments\\outputs\\training\\noise_only_seed312\\best.pt",
+  "checkpoint_sha256": "7afa0bbc9226d2765c1fd67a676626a090cf34f0a6148ffb5ca76446ec9de9dc",
+  "chrf": 13.974496451893312,
+  "corpus_bleu": 0.3781628732006019,
+  "decoding": {
+    "length_penalty": 1.4,
+    "max_length": 32,
+    "min_new_tokens": 0,
+    "no_repeat_ngram_size": 2,
+    "num_beams": 5,
+    "repetition_penalty": 1.5
+  },
+  "elapsed_seconds": 61.63622236251831,
+  "empty_prediction_rate": 0.0,
+  "evaluation_phase": "test",
+  "exact_match": 0.0,
+  "n": 1127,
+  "prediction_reference_length_ratio": 0.8556437776802458,
+  "rouge_l_f1": 15.464320892877536,
+  "run_name": "noise_only_seed312",
+  "seed": 312,
+  "token_f1": 18.504411832810376,
+  "unique_prediction_rate": 5.146406388642413,
+  "unique_references": 93,
+  "wer": 98.99453377488729
+}

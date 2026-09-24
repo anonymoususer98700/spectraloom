@@ -1,0 +1,2786 @@
+[
+  {
+    "phase": "test",
+    "condition": "real",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      17.58289554148329,
+      19.34844163738508,
+      18.533483386586497
+    ],
+    "mean": 18.48827352181829,
+    "sd": 0.8836408790299275,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "real",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      4.300218735054171,
+      4.732439911259253,
+      4.657577299806721
+    ],
+    "mean": 4.563411982040049,
+    "sd": 0.23098510036926595,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "real",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      1.1849352770480255,
+      1.2266222713936703,
+      1.133905415465093
+    ],
+    "mean": 1.1818209879689296,
+    "sd": 0.04643681665092123,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "real",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      0.2855744617432445,
+      0.29295491150991887,
+      0.39002228463429267
+    ],
+    "mean": 0.322850552629152,
+    "sd": 0.058289355332834386,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "real",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      15.799825933051832,
+      17.963688029579195,
+      16.59088015157909
+    ],
+    "mean": 16.78479803807004,
+    "sd": 1.094887164607745,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "real",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      99.1532599491956,
+      99.0490457890966,
+      102.67700123754315
+    ],
+    "mean": 100.29310232527845,
+    "sd": 2.0651744879583203,
+    "paired_real_advantage": [
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "real",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      78.72611302786866,
+      78.54278330171745,
+      82.88413306682624
+    ],
+    "mean": 80.05100979880412,
+    "sd": 2.4552684244251024,
+    "paired_real_advantage": [
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "real",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      14.407118846822375,
+      14.684135132162584,
+      15.666489576994225
+    ],
+    "mean": 14.919247851993061,
+    "sd": 0.6617870898355137,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "gaussian",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      15.713975715887063,
+      18.451183319910267,
+      18.005587402699103
+    ],
+    "mean": 17.390248812832144,
+    "sd": 1.468692463388849,
+    "paired_real_advantage": [
+      1.868919825596226,
+      0.8972583174748117,
+      0.5278959838873938
+    ],
+    "mean_real_advantage": 1.098024708986144,
+    "sd_real_advantage": 0.6926879484863584,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "gaussian",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      3.7871772033534863,
+      4.310861662782046,
+      4.408956756145146
+    ],
+    "mean": 4.168998540760226,
+    "sd": 0.3342847769638673,
+    "paired_real_advantage": [
+      0.5130415317006851,
+      0.42157824847720704,
+      0.24862054366157427
+    ],
+    "mean_real_advantage": 0.39441344127982214,
+    "sd_real_advantage": 0.13428722869822068,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "gaussian",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      1.1467726396317157,
+      0.8235563726533209,
+      1.0951239310914225
+    ],
+    "mean": 1.021817647792153,
+    "sd": 0.17363049037604775,
+    "paired_real_advantage": [
+      0.038162637416309764,
+      0.40306589874034937,
+      0.03878148437367046
+    ],
+    "mean_real_advantage": 0.16000334017677653,
+    "sd_real_advantage": 0.21049857784434522,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "gaussian",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      0.27932863246101025,
+      0.21777271701086962,
+      0.4530554109574026
+    ],
+    "mean": 0.31671892014309416,
+    "sd": 0.12201644039798991,
+    "paired_real_advantage": [
+      0.006245829282234272,
+      0.07518219449904925,
+      -0.06303312632310992
+    ],
+    "mean_real_advantage": 0.006131632486057868,
+    "sd_real_advantage": 0.06910773117513185,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "gaussian",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      15.43360670882062,
+      18.21479483470695,
+      16.880313844005222
+    ],
+    "mean": 16.8429051291776,
+    "sd": 1.3909713896596045,
+    "paired_real_advantage": [
+      0.36621922423121234,
+      -0.25110680512775474,
+      -0.28943369242613315
+    ],
+    "mean_real_advantage": -0.05810709110755852,
+    "sd_real_advantage": 0.36797670305228447,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "gaussian",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      97.01035628215983,
+      97.01035628215983,
+      99.85670552986387
+    ],
+    "mean": 97.95913936472785,
+    "sd": 1.6433405043696165,
+    "paired_real_advantage": [
+      -2.1429036670357675,
+      -2.0386895069367625,
+      -2.8202957076792785
+    ],
+    "mean_real_advantage": -2.3339629605506027,
+    "sd_real_advantage": 0.4243875628344668,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "gaussian",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      77.9596929227087,
+      78.28051994347334,
+      81.23161928526869
+    ],
+    "mean": 79.1572773838169,
+    "sd": 1.8035806711655926,
+    "paired_real_advantage": [
+      -0.7664201051599662,
+      -0.2622633582441125,
+      -1.6525137815575448
+    ],
+    "mean_real_advantage": -0.8937324149872078,
+    "sd_real_advantage": 0.7038148748470404,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "gaussian",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      13.080718750681012,
+      13.590128642972271,
+      14.875265078405672
+    ],
+    "mean": 13.848704157352985,
+    "sd": 0.9247946275068071,
+    "paired_real_advantage": [
+      1.326400096141363,
+      1.0940064891903134,
+      0.7912244985885533
+    ],
+    "mean_real_advantage": 1.0705436946400766,
+    "sd_real_advantage": 0.26835816943048646,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "language_prior",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      16.8709762765676,
+      13.360966575535763,
+      12.432509235578292
+    ],
+    "mean": 14.221484029227218,
+    "sd": 2.341017969723388,
+    "paired_real_advantage": [
+      0.7119192649156894,
+      5.987475061849317,
+      6.100974151008204
+    ],
+    "mean_real_advantage": 4.26678949259107,
+    "sd_real_advantage": 3.079130926498512,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "language_prior",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      5.004139357947388,
+      4.601519681993426,
+      3.8784384019975127
+    ],
+    "mean": 4.494699147312775,
+    "sd": 0.5704021656066101,
+    "paired_real_advantage": [
+      -0.7039206228932162,
+      0.13092022926582736,
+      0.779138897809208
+    ],
+    "mean_real_advantage": 0.06871283472727303,
+    "sd_real_advantage": 0.7434841662321953,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "language_prior",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      1.6661635411358455,
+      1.6884612420473957,
+      0.973754386290109
+    ],
+    "mean": 1.4427930564911167,
+    "sd": 0.4063523747616501,
+    "paired_real_advantage": [
+      -0.48122826408782005,
+      -0.46183897065372537,
+      0.16015102917498392
+    ],
+    "mean_real_advantage": -0.2609720685221872,
+    "sd_real_advantage": 0.3648321308979161,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "language_prior",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      0.5492349848132438,
+      0.3298494755088083,
+      0.2227024898884737
+    ],
+    "mean": 0.36726231673684195,
+    "sd": 0.1664501669479917,
+    "paired_real_advantage": [
+      -0.2636605230699993,
+      -0.03689456399888941,
+      0.16731979474581898
+    ],
+    "mean_real_advantage": -0.04441176410768991,
+    "sd_real_advantage": 0.21558847327550412,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "language_prior",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      15.985645894560593,
+      12.09690085795766,
+      11.063846495135422
+    ],
+    "mean": 13.048797749217892,
+    "sd": 2.595305011118859,
+    "paired_real_advantage": [
+      -0.185819961508761,
+      5.866787171621535,
+      5.527033656443667
+    ],
+    "mean_real_advantage": 3.736000288852147,
+    "sd_real_advantage": 3.4006416556106878,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "language_prior",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      139.00214941705204,
+      143.16420243600598,
+      136.02553246922426
+    ],
+    "mean": 139.3972947740941,
+    "sd": 3.585701760262801,
+    "paired_real_advantage": [
+      39.84888946785644,
+      44.115156646909384,
+      33.34853123168111
+    ],
+    "mean_real_advantage": 39.104192448815645,
+    "sd_real_advantage": 5.421806520486142,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "language_prior",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      116.85614982112621,
+      119.83907724037837,
+      109.74321107107846
+    ],
+    "mean": 115.47947937752768,
+    "sd": 5.18681449059169,
+    "paired_real_advantage": [
+      38.130036793257545,
+      41.296293938660924,
+      26.859078004252225
+    ],
+    "mean_real_advantage": 35.428469578723565,
+    "sd_real_advantage": 7.588290324254191,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "language_prior",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      18.371922032454112,
+      19.13517627531867,
+      17.95552043923318
+    ],
+    "mean": 18.48753958233532,
+    "sd": 0.5982662754017144,
+    "paired_real_advantage": [
+      -3.9648031856317374,
+      -4.451041143156086,
+      -2.2890308622389544
+    ],
+    "mean_real_advantage": -3.5682917303422594,
+    "sd_real_advantage": 1.1342345940455523,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "mismatched",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      17.912169257126138,
+      19.097391568818967,
+      18.32686726997965
+    ],
+    "mean": 18.44547603197492,
+    "sd": 0.6014474298308715,
+    "paired_real_advantage": [
+      -0.3292737156428487,
+      0.2510500685661121,
+      0.20661611660684542
+    ],
+    "mean_real_advantage": 0.04279748984336962,
+    "sd_real_advantage": 0.3229881274685733,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "mismatched",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      4.469148566439051,
+      4.526442399510944,
+      4.343347074192195
+    ],
+    "mean": 4.446312680047397,
+    "sd": 0.09365939792067854,
+    "paired_real_advantage": [
+      -0.1689298313848795,
+      0.2059975117483095,
+      0.3142302256145255
+    ],
+    "mean_real_advantage": 0.11709930199265184,
+    "sd_real_advantage": 0.25355093954319663,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "mismatched",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      1.3648549643161187,
+      0.9156542776884923,
+      1.082221586934431
+    ],
+    "mean": 1.120910276313014,
+    "sd": 0.2270857222087226,
+    "paired_real_advantage": [
+      -0.17991968726809326,
+      0.310967993705178,
+      0.051683828530662
+    ],
+    "mean_real_advantage": 0.060910711655915585,
+    "sd_real_advantage": 0.24557387964110589,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "mismatched",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      0.31730842402997117,
+      0.23530809942651323,
+      0.3765722224736706
+    ],
+    "mean": 0.30972958197671835,
+    "sd": 0.07093636056509892,
+    "paired_real_advantage": [
+      -0.03173396228672665,
+      0.057646812083405635,
+      0.013450062160622056
+    ],
+    "mean_real_advantage": 0.013120970652433681,
+    "sd_real_advantage": 0.04469129593854597,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "mismatched",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      15.892478334001064,
+      17.920234558069616,
+      16.418515952232188
+    ],
+    "mean": 16.743742948100955,
+    "sd": 1.0522729090846898,
+    "paired_real_advantage": [
+      -0.09265240094923222,
+      0.043453471509579344,
+      0.17236419934690161
+    ],
+    "mean_real_advantage": 0.041055089969082914,
+    "sd_real_advantage": 0.13252457803607803,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "mismatched",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      100.16934801016087,
+      99.26398749430079,
+      103.10688464795155
+    ],
+    "mean": 100.8467400508044,
+    "sd": 2.009007121921092,
+    "paired_real_advantage": [
+      1.0160880609652736,
+      0.21494170520419686,
+      0.42988341040839373
+    ],
+    "mean_real_advantage": 0.5536377255259547,
+    "sd_real_advantage": 0.4146627771092745,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "mismatched",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      79.20480731281907,
+      78.86870281487516,
+      82.98343666849148
+    ],
+    "mean": 80.35231559872857,
+    "sd": 2.2848063640486607,
+    "paired_real_advantage": [
+      0.4786942849504072,
+      0.3259195131577144,
+      0.0993036016652411
+    ],
+    "mean_real_advantage": 0.3013057999244542,
+    "sd_real_advantage": 0.19088923175560005,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "mismatched",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      14.663826934695571,
+      14.335505405286836,
+      15.685751460145159
+    ],
+    "mean": 14.895027933375856,
+    "sd": 0.7041885603360699,
+    "paired_real_advantage": [
+      -0.25670808787319643,
+      0.3486297268757479,
+      -0.01926188315093391
+    ],
+    "mean_real_advantage": 0.02421991861720585,
+    "sd_real_advantage": 0.30500240622822905,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "shuffled",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      17.76945697709194,
+      19.3307853370926,
+      18.41946275819299
+    ],
+    "mean": 18.506568357459177,
+    "sd": 0.7843003895212775,
+    "paired_real_advantage": [
+      -0.18656143560865246,
+      0.017656300292479443,
+      0.1140206283935079
+    ],
+    "mean_real_advantage": -0.01829483564088837,
+    "sd_real_advantage": 0.15348210785340527,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "shuffled",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      4.351855293737566,
+      4.759124477141471,
+      4.64344768859576
+    ],
+    "mean": 4.5848091531582655,
+    "sd": 0.20987116361308802,
+    "paired_real_advantage": [
+      -0.051636558683394895,
+      -0.026684565882217903,
+      0.014129611210960569
+    ],
+    "mean_real_advantage": -0.02139717111821741,
+    "sd_real_advantage": 0.03320037173264919,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "shuffled",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      1.2265165308625612,
+      1.2313642089845163,
+      1.131697578164707
+    ],
+    "mean": 1.196526106003928,
+    "sd": 0.056195449212049435,
+    "paired_real_advantage": [
+      -0.0415812538145357,
+      -0.004741937590845957,
+      0.002207837300385984
+    ],
+    "mean_real_advantage": -0.014705118034998558,
+    "sd_real_advantage": 0.023533377330714495,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "shuffled",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      0.3484252690561618,
+      0.29385239391254564,
+      0.3894897336118721
+    ],
+    "mean": 0.34392246552685984,
+    "sd": 0.04797740734875856,
+    "paired_real_advantage": [
+      -0.06285080731291726,
+      -0.0008974824026267703,
+      0.0005325510224205576
+    ],
+    "mean_real_advantage": -0.021071912897707823,
+    "sd_real_advantage": 0.03618864825904805,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "shuffled",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      15.786008783188091,
+      18.039029445354657,
+      16.637282264259902
+    ],
+    "mean": 16.820773497600882,
+    "sd": 1.13766308746136,
+    "paired_real_advantage": [
+      0.013817149863740497,
+      -0.07534141577546194,
+      -0.046402112680812735
+    ],
+    "mean_real_advantage": -0.035975459530844724,
+    "sd_real_advantage": 0.045484599356730576,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "shuffled",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      99.26398749430079,
+      98.78851038884909,
+      102.9179964827721
+    ],
+    "mean": 100.323498121974,
+    "sd": 2.2594437208282523,
+    "paired_real_advantage": [
+      0.1107275451051919,
+      -0.2605354002475053,
+      0.24099524522894455
+    ],
+    "mean_real_advantage": 0.03039579669554371,
+    "sd_real_advantage": 0.26023669887223705,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "shuffled",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      78.70828930449285,
+      78.5771576253708,
+      82.94142360624849
+    ],
+    "mean": 80.07562351203738,
+    "sd": 2.4827215941991256,
+    "paired_real_advantage": [
+      -0.017823723375812506,
+      0.03437432365335269,
+      0.05729053942225448
+    ],
+    "mean_real_advantage": 0.02461371323326489,
+    "sd_real_advantage": 0.03849662655030714,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "shuffled",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      14.550541785586645,
+      14.589531294535307,
+      15.700609231227153
+    ],
+    "mean": 14.946894103783036,
+    "sd": 0.6530274997697965,
+    "paired_real_advantage": [
+      -0.14342293876427092,
+      0.09460383762727709,
+      -0.03411965423292784
+    ],
+    "mean_real_advantage": -0.027646251789973892,
+    "sd_real_advantage": 0.11914535355702853,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "wrong_subject",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      17.72013639626551,
+      19.325235894999615,
+      18.559019464936394
+    ],
+    "mean": 18.53479725206717,
+    "sd": 0.8028238517298366,
+    "paired_real_advantage": [
+      -0.13724085478222037,
+      0.023205742385464134,
+      -0.025536078349897906
+    ],
+    "mean_real_advantage": -0.04652373024888471,
+    "sd_real_advantage": 0.08225654250481897,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "wrong_subject",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      4.27328021820508,
+      4.7438809999741185,
+      4.703185154644989
+    ],
+    "mean": 4.573448790941396,
+    "sd": 0.26074876222272014,
+    "paired_real_advantage": [
+      0.026938516849090988,
+      -0.011441088714865266,
+      -0.045607854838268125
+    ],
+    "mean_real_advantage": -0.010036808901347468,
+    "sd_real_advantage": 0.03629356709660963,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "wrong_subject",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      1.1798814052036357,
+      1.1489876891407813,
+      1.097537425461294
+    ],
+    "mean": 1.1421355066019037,
+    "sd": 0.04159744047548325,
+    "paired_real_advantage": [
+      0.005053871844389768,
+      0.077634582252889,
+      0.03636799000379898
+    ],
+    "mean_real_advantage": 0.03968548136702591,
+    "sd_real_advantage": 0.03640390353464064,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "wrong_subject",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      0.2846221697346609,
+      0.27889396453920634,
+      0.32011351943416483
+    ],
+    "mean": 0.29454321790267735,
+    "sd": 0.022328979466126542,
+    "paired_real_advantage": [
+      0.0009522920085835995,
+      0.014060946970712529,
+      0.06990876520012784
+    ],
+    "mean_real_advantage": 0.028307334726474658,
+    "sd_real_advantage": 0.03661923636314235,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "wrong_subject",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      15.866323422608659,
+      17.990747540028014,
+      16.698294085785655
+    ],
+    "mean": 16.85178834947411,
+    "sd": 1.0704974658574384,
+    "paired_real_advantage": [
+      -0.0664974895568271,
+      -0.027059510448818713,
+      -0.10741393420656564
+    ],
+    "mean_real_advantage": -0.06699031140407048,
+    "sd_real_advantage": 0.040179478709780836,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "wrong_subject",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      99.15977333420179,
+      99.16628671920797,
+      102.57930046245033
+    ],
+    "mean": 100.30178683862003,
+    "sd": 1.9723873443356748,
+    "paired_real_advantage": [
+      0.0065133850061869225,
+      0.11724093011137882,
+      -0.09770077509281805
+    ],
+    "mean_real_advantage": 0.008684513341582564,
+    "sd_real_advantage": 0.1074872992855832,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "wrong_subject",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      78.69937744280494,
+      78.67773435013432,
+      82.83957375838669
+    ],
+    "mean": 80.07222851710866,
+    "sd": 2.3966157116198774,
+    "paired_real_advantage": [
+      -0.02673558506371876,
+      0.13495104841686612,
+      -0.044559308439545475
+    ],
+    "mean_real_advantage": 0.02121871830453396,
+    "sd_real_advantage": 0.09889743911411392,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "test",
+    "condition": "wrong_subject",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      14.455107475591532,
+      14.67512007270327,
+      15.591545081186787
+    ],
+    "mean": 14.90725754316053,
+    "sd": 0.6027341551177353,
+    "paired_real_advantage": [
+      -0.04798862876915777,
+      0.00901505945931369,
+      0.07494449580743812
+    ],
+    "mean_real_advantage": 0.011990308832531346,
+    "sd_real_advantage": 0.06152054422033208,
+    "eligible_examples": [
+      782,
+      782,
+      782
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "real",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      17.682270369220305,
+      16.609537924283053,
+      16.89195800905747
+    ],
+    "mean": 17.061255434186943,
+    "sd": 0.5560440074507285,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "real",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      5.21632864877461,
+      3.9080567433307456,
+      4.620607832195369
+    ],
+    "mean": 4.581664408100242,
+    "sd": 0.6550047994889958,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "real",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      1.9726522559122934,
+      0.9062822233694995,
+      1.54767812287121
+    ],
+    "mean": 1.4755375340510009,
+    "sd": 0.5368328045051128,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "real",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      0.8689327363405871,
+      0.35219808405611464,
+      0.6095066056718781
+    ],
+    "mean": 0.6102124753561933,
+    "sd": 0.2583680493151138,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "real",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      18.509016855892416,
+      18.231251103565345,
+      16.908285270279542
+    ],
+    "mean": 17.8828510765791,
+    "sd": 0.8553492482008082,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "real",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      92.17325438539771,
+      92.18064420776486,
+      96.03536030002678
+    ],
+    "mean": 93.46308629772979,
+    "sd": 2.2276576957733916,
+    "paired_real_advantage": [
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "real",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      76.90550812617809,
+      77.81311934490904,
+      81.41000423228732
+    ],
+    "mean": 78.70954390112482,
+    "sd": 2.382289661487094,
+    "paired_real_advantage": [
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "real",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      13.824959737953844,
+      12.217030596184452,
+      13.698468072565792
+    ],
+    "mean": 13.246819468901363,
+    "sd": 0.8940631281580927,
+    "paired_real_advantage": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_real_advantage": 0.0,
+    "sd_real_advantage": 0.0,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "gaussian",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      15.61630618492747,
+      16.241938424047305,
+      15.87547239735822
+    ],
+    "mean": 15.911239002110998,
+    "sd": 0.31434592755144863,
+    "paired_real_advantage": [
+      2.0659641842928345,
+      0.36759950023574817,
+      1.016485611699249
+    ],
+    "mean_real_advantage": 1.1500164320759438,
+    "sd_real_advantage": 0.8570201339559862,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "gaussian",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      4.48054108177649,
+      3.8916385678903143,
+      4.287067988092695
+    ],
+    "mean": 4.2197492125865,
+    "sd": 0.30016729646499557,
+    "paired_real_advantage": [
+      0.7357875669981198,
+      0.016418175440431337,
+      0.333539844102674
+    ],
+    "mean_real_advantage": 0.3619151955137417,
+    "sd_real_advantage": 0.36052316264464324,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "gaussian",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      1.6658432155187277,
+      1.082106642096069,
+      1.426762576174035
+    ],
+    "mean": 1.391570811262944,
+    "sd": 0.29345517890467515,
+    "paired_real_advantage": [
+      0.3068090403935657,
+      -0.1758244187265695,
+      0.12091554669717497
+    ],
+    "mean_real_advantage": 0.08396672278805706,
+    "sd_real_advantage": 0.24342899510281651,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "gaussian",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      0.7479652938562725,
+      0.45775827592434387,
+      0.5499911580739907
+    ],
+    "mean": 0.5852382426182023,
+    "sd": 0.14827945252423141,
+    "paired_real_advantage": [
+      0.12096744248431457,
+      -0.10556019186822924,
+      0.059515447597887405
+    ],
+    "mean_real_advantage": 0.024974232737990914,
+    "sd_real_advantage": 0.11714740255053928,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "gaussian",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      18.029811003915793,
+      18.25503111454967,
+      16.854416996937164
+    ],
+    "mean": 17.713086371800877,
+    "sd": 0.7521076027106172,
+    "paired_real_advantage": [
+      0.4792058519766229,
+      -0.023780010984324917,
+      0.05386827334237765
+    ],
+    "mean_real_advantage": 0.16976470477822522,
+    "sd_real_advantage": 0.2707816125576392,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "gaussian",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      91.00566245138883,
+      91.97557663707659,
+      93.41566827087394
+    ],
+    "mean": 92.13230245311311,
+    "sd": 1.2126228797722969,
+    "paired_real_advantage": [
+      -1.1675919340088825,
+      -0.20506757068827142,
+      -2.6196920291528443
+    ],
+    "mean_real_advantage": -1.330783844616666,
+    "sd_real_advantage": 1.2155560532610978,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "gaussian",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      77.05242629387735,
+      78.12000678657526,
+      79.4077780864468
+    ],
+    "mean": 78.1934037222998,
+    "sd": 1.1793900327374085,
+    "paired_real_advantage": [
+      0.1469181676992548,
+      0.30688744166621973,
+      -2.002226145840524
+    ],
+    "mean_real_advantage": -0.5161401788250165,
+    "sd_real_advantage": 1.2894712746601575,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "gaussian",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      12.284991076624822,
+      11.876688726229295,
+      12.924574910896208
+    ],
+    "mean": 12.362084904583442,
+    "sd": 0.5281798535877054,
+    "paired_real_advantage": [
+      1.5399686613290218,
+      0.34034186995515725,
+      0.7738931616695837
+    ],
+    "mean_real_advantage": 0.8847345643179209,
+    "sd_real_advantage": 0.6074458593580802,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "language_prior",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      19.91399663979987,
+      16.291049581455244,
+      15.919804758611374
+    ],
+    "mean": 17.374950326622162,
+    "sd": 2.2066995298336547,
+    "paired_real_advantage": [
+      -2.231726270579564,
+      0.31848834282780913,
+      0.9721532504460946
+    ],
+    "mean_real_advantage": -0.31369489243522014,
+    "sd_real_advantage": 1.6929124987791377,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "language_prior",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      7.165017863823192,
+      6.4244343238478985,
+      5.576262496953967
+    ],
+    "mean": 6.388571561541686,
+    "sd": 0.7949845955923397,
+    "paired_real_advantage": [
+      -1.9486892150485824,
+      -2.516377580517153,
+      -0.9556546647585975
+    ],
+    "mean_real_advantage": -1.8069071534414443,
+    "sd_real_advantage": 0.7899624166304682,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "language_prior",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      3.024609125303065,
+      2.460498220309042,
+      2.317109399120419
+    ],
+    "mean": 2.600738914910842,
+    "sd": 0.3740181211571525,
+    "paired_real_advantage": [
+      -1.0519568693907717,
+      -1.5542159969395426,
+      -0.7694312762492088
+    ],
+    "mean_real_advantage": -1.1252013808598411,
+    "sd_real_advantage": 0.397486268067852,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "language_prior",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      1.5333428431240521,
+      1.0313301963637098,
+      1.0421023672427896
+    ],
+    "mean": 1.2022584689101838,
+    "sd": 0.28677806236322123,
+    "paired_real_advantage": [
+      -0.664410106783465,
+      -0.6791321123075952,
+      -0.4325957615709115
+    ],
+    "mean_real_advantage": -0.5920459935539906,
+    "sd_real_advantage": 0.13828400746744515,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "language_prior",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      17.986862654571254,
+      14.214625379296672,
+      13.743519489923242
+    ],
+    "mean": 15.315002507930389,
+    "sd": 2.325857405808961,
+    "paired_real_advantage": [
+      0.5221542013211611,
+      4.016625724268673,
+      3.1647657803562996
+    ],
+    "mean_real_advantage": 2.5678485686487114,
+    "sd_real_advantage": 1.822104668891814,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "language_prior",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      119.85183406153874,
+      123.62156719657851,
+      118.75352171222184
+    ],
+    "mean": 120.7423076567797,
+    "sd": 2.5532673434850808,
+    "paired_real_advantage": [
+      27.678579676141027,
+      31.440922988813654,
+      22.71816141219506
+    ],
+    "mean_real_advantage": 27.279221359049913,
+    "sd_real_advantage": 4.375072305654595,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "language_prior",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      104.13720068686108,
+      106.85742412180038,
+      99.64929813014936
+    ],
+    "mean": 103.54797431293694,
+    "sd": 3.640008360934708,
+    "paired_real_advantage": [
+      27.231692560682987,
+      29.044304776891337,
+      18.23929389786204
+    ],
+    "mean_real_advantage": 24.838430411812123,
+    "sd_real_advantage": 5.786436106006776,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "language_prior",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      18.236338489609814,
+      18.830604321266296,
+      17.412528604742185
+    ],
+    "mean": 18.1598238052061,
+    "sd": 0.712127486582208,
+    "paired_real_advantage": [
+      -4.41137875165597,
+      -6.613573725081844,
+      -3.7140605321763935
+    ],
+    "mean_real_advantage": -4.913004336304736,
+    "sd_real_advantage": 1.5134448649814938,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "mismatched",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      17.774533221236766,
+      16.46859858561973,
+      16.82211021624935
+    ],
+    "mean": 17.021747341035283,
+    "sd": 0.6754683962411898,
+    "paired_real_advantage": [
+      -0.09226285201646078,
+      0.14093933866332264,
+      0.06984779280811892
+    ],
+    "mean_real_advantage": 0.03950809315166026,
+    "sd_real_advantage": 0.11952484455499453,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "mismatched",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      5.257022047841287,
+      3.8800632661548367,
+      4.7064216944015635
+    ],
+    "mean": 4.6145023361325626,
+    "sd": 0.6930661930395227,
+    "paired_real_advantage": [
+      -0.04069339906667668,
+      0.027993477175908943,
+      -0.08581386220619436
+    ],
+    "mean_real_advantage": -0.0328379280323207,
+    "sd_real_advantage": 0.057308890612077064,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "mismatched",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      1.9289301747729743,
+      0.8691054558750375,
+      1.5735934614517544
+    ],
+    "mean": 1.4572096973665887,
+    "sd": 0.5394126380645399,
+    "paired_real_advantage": [
+      0.04372208113931908,
+      0.03717676749446197,
+      -0.0259153385805444
+    ],
+    "mean_real_advantage": 0.018327836684412218,
+    "sd_real_advantage": 0.038455223322997875,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "mismatched",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      0.824685037730363,
+      0.32165629527490797,
+      0.6304107438603749
+    ],
+    "mean": 0.5922506922885487,
+    "sd": 0.25367621308678595,
+    "paired_real_advantage": [
+      0.04424769861022415,
+      0.03054178878120667,
+      -0.02090413818849679
+    ],
+    "mean_real_advantage": 0.017961783067644677,
+    "sd_real_advantage": 0.034349423101075964,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "mismatched",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      18.4569845865128,
+      18.266065902943794,
+      16.74430003546577
+    ],
+    "mean": 17.822450174974122,
+    "sd": 0.938572468393005,
+    "paired_real_advantage": [
+      0.052032269379616025,
+      -0.03481479937844867,
+      0.16398523481377225
+    ],
+    "mean_real_advantage": 0.06040090160497987,
+    "sd_real_advantage": 0.09966387962897892,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "mismatched",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      92.37832195608598,
+      92.10674598409341,
+      96.41131751295528
+    ],
+    "mean": 93.63212848437823,
+    "sd": 2.4106756562348317,
+    "paired_real_advantage": [
+      0.20506757068827142,
+      -0.07389822367144916,
+      0.3759572129284976
+    ],
+    "mean_real_advantage": 0.16904218664843995,
+    "sd_real_advantage": 0.227081152192438,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "mismatched",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      77.07125717577789,
+      77.89571420314606,
+      81.86884383978462
+    ],
+    "mean": 78.94527173956952,
+    "sd": 2.5652266403499855,
+    "paired_real_advantage": [
+      0.1657490495997962,
+      0.08259485823701596,
+      0.45883960749729624
+    ],
+    "mean_real_advantage": 0.2357278384447028,
+    "sd_real_advantage": 0.1976431152421779,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "mismatched",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      13.820430969010001,
+      12.10306189231491,
+      13.761763214049871
+    ],
+    "mean": 13.228418691791594,
+    "sd": 0.9750289333985529,
+    "paired_real_advantage": [
+      0.004528768943842465,
+      0.11396870386954205,
+      -0.06329514148407966
+    ],
+    "mean_real_advantage": 0.018400777109768285,
+    "sd_real_advantage": 0.08944239584953442,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "shuffled",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      17.80649014474002,
+      16.593595604017047,
+      16.879157277158182
+    ],
+    "mean": 17.093081008638418,
+    "sd": 0.6341141962586229,
+    "paired_real_advantage": [
+      -0.12421977551971608,
+      0.015942320266006504,
+      0.012800731899286433
+    ],
+    "mean_real_advantage": -0.03182557445147438,
+    "sd_real_advantage": 0.08003114198638855,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "shuffled",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      5.373014160391292,
+      3.888045109811804,
+      4.628076694055125
+    ],
+    "mean": 4.629711988086074,
+    "sd": 0.742485875915941,
+    "paired_real_advantage": [
+      -0.15668551161668187,
+      0.02001163351894153,
+      -0.007468861859755371
+    ],
+    "mean_real_advantage": -0.0480475799858319,
+    "sd_real_advantage": 0.09508125234943306,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "shuffled",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      2.08260676085686,
+      0.86387756191945,
+      1.5675261735287924
+    ],
+    "mean": 1.504670165435034,
+    "sd": 0.6117911190927564,
+    "paired_real_advantage": [
+      -0.10995450494456649,
+      0.04240466145004951,
+      -0.01984805065758244
+    ],
+    "mean_real_advantage": -0.02913263138403314,
+    "sd_real_advantage": 0.07660275109658306,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "shuffled",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      0.9425827314165985,
+      0.3304494412735758,
+      0.6242234938199749
+    ],
+    "mean": 0.6324185555033831,
+    "sd": 0.30614891883252937,
+    "paired_real_advantage": [
+      -0.07364999507601144,
+      0.021748642782538852,
+      -0.014716888148096796
+    ],
+    "mean_real_advantage": -0.022206080147189795,
+    "sd_real_advantage": 0.04813824907405924,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "shuffled",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      18.561676330410172,
+      18.19518479784006,
+      16.929776128189523
+    ],
+    "mean": 17.895545752146585,
+    "sd": 0.8562197356870612,
+    "paired_real_advantage": [
+      -0.05265947451775688,
+      0.03606630572528502,
+      -0.021490857909981287
+    ],
+    "mean_real_advantage": -0.012694675567484381,
+    "sd_real_advantage": 0.04501217210695327,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "shuffled",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      92.19727130809093,
+      92.22128823078415,
+      96.00210609937464
+    ],
+    "mean": 93.47355521274991,
+    "sd": 2.18982222859116,
+    "paired_real_advantage": [
+      0.024016922693220977,
+      0.04064402301929704,
+      -0.03325420065213791
+    ],
+    "mean_real_advantage": 0.010468915020126701,
+    "sd_real_advantage": 0.038767231644534834,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "shuffled",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      76.91371167868922,
+      77.82132289742017,
+      81.4776835405041
+    ],
+    "mean": 78.73757270553783,
+    "sd": 2.4160080860825417,
+    "paired_real_advantage": [
+      0.008203552511133694,
+      0.008203552511133694,
+      0.06767930821678192
+    ],
+    "mean_real_advantage": 0.028028804413016434,
+    "sd_real_advantage": 0.03433834356691242,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "shuffled",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      13.920503076346295,
+      12.202238866738552,
+      13.710524544448887
+    ],
+    "mean": 13.277755495844579,
+    "sd": 0.9373231889679989,
+    "paired_real_advantage": [
+      -0.0955433383924511,
+      0.014791729445899904,
+      -0.012056471883095554
+    ],
+    "mean_real_advantage": -0.030936026943215584,
+    "sd_real_advantage": 0.05753942125338469,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "wrong_subject",
+    "metric": "bleu_1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      17.65701736204487,
+      16.565489568679677,
+      16.87283876196259
+    ],
+    "mean": 17.03178189756238,
+    "sd": 0.5628547069962998,
+    "paired_real_advantage": [
+      0.025253007175436437,
+      0.044048355603376166,
+      0.019119247094877778
+    ],
+    "mean_real_advantage": 0.02947353662456346,
+    "sd_real_advantage": 0.012989409700996156,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "wrong_subject",
+    "metric": "bleu_2",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      5.206743058958796,
+      3.860030520119423,
+      4.612823562800109
+    ],
+    "mean": 4.559865713959443,
+    "sd": 0.6749163399134523,
+    "paired_real_advantage": [
+      0.009585589815813478,
+      0.04802622321132244,
+      0.007784269395259891
+    ],
+    "mean_real_advantage": 0.021798694140798602,
+    "sd_real_advantage": 0.02273155625277899,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "wrong_subject",
+    "metric": "bleu_3",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      1.963187150748081,
+      0.8731257749047585,
+      1.5637758236021455
+    ],
+    "mean": 1.4666962497516616,
+    "sd": 0.5514769111400792,
+    "paired_real_advantage": [
+      0.009465105164212506,
+      0.03315644846474097,
+      -0.016097700730935527
+    ],
+    "mean_real_advantage": 0.008841284299339317,
+    "sd_real_advantage": 0.024632999565645235,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "wrong_subject",
+    "metric": "bleu_4",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      0.8528011874519699,
+      0.3378873539520827,
+      0.6142233274175475
+    ],
+    "mean": 0.6016372896072,
+    "sd": 0.2576875438262587,
+    "paired_real_advantage": [
+      0.01613154888861723,
+      0.014310730104031943,
+      -0.004716721745669394
+    ],
+    "mean_real_advantage": 0.00857518574899326,
+    "sd_real_advantage": 0.011547075339521111,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "wrong_subject",
+    "metric": "rouge_l_f1",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      18.479349089303668,
+      18.200316699735975,
+      16.94807034926668
+    ],
+    "mean": 17.87591204610211,
+    "sd": 0.815556515145823,
+    "paired_real_advantage": [
+      0.029667766588747924,
+      0.030934403829370183,
+      -0.03978507898713701
+    ],
+    "mean_real_advantage": 0.006939030476993698,
+    "sd_real_advantage": 0.04046922159353803,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "wrong_subject",
+    "metric": "wer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      92.19542385249915,
+      92.19911876368272,
+      95.84230119068513
+    ],
+    "mean": 93.41228126895567,
+    "sd": 2.1044597948389816,
+    "paired_real_advantage": [
+      0.022169467101434748,
+      0.01847455591786229,
+      -0.19305910934164672
+    ],
+    "mean_real_advantage": -0.05080502877411656,
+    "sd_real_advantage": 0.12320949910923526,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "wrong_subject",
+    "metric": "cer",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      76.9256441187054,
+      77.81610245491309,
+      81.2977647183851
+    ],
+    "mean": 78.67983709733453,
+    "sd": 2.310495138260421,
+    "paired_real_advantage": [
+      0.02013599252731524,
+      0.0029831100040524916,
+      -0.11223951390222453
+    ],
+    "mean_real_advantage": -0.0297068037902856,
+    "sd_real_advantage": 0.0719881346023789,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  },
+  {
+    "phase": "zero_shot",
+    "condition": "wrong_subject",
+    "metric": "chrf",
+    "seeds": [
+      42,
+      100,
+      312
+    ],
+    "seed_values": [
+      13.829613582083145,
+      12.197444998741522,
+      13.682405265406278
+    ],
+    "mean": 13.236487948743648,
+    "sd": 0.9028428772973452,
+    "paired_real_advantage": [
+      -0.004653844129300921,
+      0.01958559744292998,
+      0.016062807159514136
+    ],
+    "mean_real_advantage": 0.010331520157714399,
+    "sd_real_advantage": 0.013096693092385875,
+    "eligible_examples": [
+      4659,
+      4659,
+      4659
+    ]
+  }
+]

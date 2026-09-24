@@ -1,0 +1,33 @@
+{
+  "bleu_1": 16.17644840998796,
+  "bleu_2": 4.886983847694501,
+  "bleu_3": 1.904765854576308,
+  "bleu_4": 0.8813521540733856,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "cer": 76.75472603203289,
+  "checkpoint": "C:\\Users\\USER\\Desktop\\Design Projects and Research Papers\\EEG-to-Text-Generation-3\\experiments\\outputs\\training\\no_multiscale_seed42\\best.pt",
+  "checkpoint_sha256": "ad429f86b795b7d986bd9fda36064fe8e16301cc1c47e155465759df75808afa",
+  "chrf": 12.501912224624757,
+  "corpus_bleu": 0.8813521540733856,
+  "decoding": {
+    "length_penalty": 1.4,
+    "max_length": 32,
+    "min_new_tokens": 0,
+    "no_repeat_ngram_size": 2,
+    "num_beams": 5,
+    "repetition_penalty": 1.5
+  },
+  "elapsed_seconds": 332.95784306526184,
+  "empty_prediction_rate": 0.0,
+  "evaluation_phase": "zero_shot",
+  "exact_match": 0.0,
+  "n": 6629,
+  "prediction_reference_length_ratio": 0.6769108976404004,
+  "rouge_l_f1": 18.035451973707474,
+  "run_name": "no_multiscale_seed42",
+  "seed": 42,
+  "token_f1": 21.34394222117809,
+  "unique_prediction_rate": 0.9805400512897873,
+  "unique_references": 375,
+  "wer": 90.8534496000378
+}

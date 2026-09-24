@@ -1,0 +1,33 @@
+{
+  "bleu_1": 16.996982041826996,
+  "bleu_2": 4.464570053823459,
+  "bleu_3": 1.3928109124438386,
+  "bleu_4": 0.4773695678408725,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "cer": 77.79313900084357,
+  "checkpoint": "C:\\Users\\USER\\Desktop\\Design Projects and Research Papers\\EEG-to-Text-Generation-3\\experiments\\outputs\\training\\spectraloom_seed42\\best.pt",
+  "checkpoint_sha256": "bb1265160c70538aeb1d633e1bc4d6b31cae5e351ae7ca9de0b25b62a3b45129",
+  "chrf": 14.192734714907873,
+  "corpus_bleu": 0.4773695678408725,
+  "decoding": {
+    "length_penalty": 1.4,
+    "max_length": 32,
+    "min_new_tokens": 0,
+    "no_repeat_ngram_size": 2,
+    "num_beams": 5,
+    "repetition_penalty": 1.5
+  },
+  "elapsed_seconds": 78.2755777835846,
+  "empty_prediction_rate": 0.0,
+  "evaluation_phase": "test",
+  "exact_match": 0.0,
+  "n": 1127,
+  "prediction_reference_length_ratio": 0.8446714280014364,
+  "rouge_l_f1": 15.927330221859762,
+  "run_name": "spectraloom_seed42",
+  "seed": 42,
+  "token_f1": 18.70051308171787,
+  "unique_prediction_rate": 8.16326530612245,
+  "unique_references": 93,
+  "wer": 96.74819454973466
+}

@@ -1,0 +1,33 @@
+{
+  "bleu_1": 16.646147681861063,
+  "bleu_2": 4.071162220566343,
+  "bleu_3": 0.7660981176644914,
+  "bleu_4": 0.21553624120399764,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "cer": 83.89024275939639,
+  "checkpoint": "C:\\Users\\USER\\Desktop\\Design Projects and Research Papers\\EEG-to-Text-Generation-3\\experiments\\outputs\\training\\no_cab_seed100\\best.pt",
+  "checkpoint_sha256": "9ef15272a0547a2f5990932b685d41e37d0b77fa8d4beeb9430403ad5ff83a59",
+  "chrf": 13.008106244097565,
+  "corpus_bleu": 0.21553624120399764,
+  "decoding": {
+    "length_penalty": 1.4,
+    "max_length": 32,
+    "min_new_tokens": 0,
+    "no_repeat_ngram_size": 2,
+    "num_beams": 5,
+    "repetition_penalty": 1.5
+  },
+  "elapsed_seconds": 62.23991370201111,
+  "empty_prediction_rate": 0.0,
+  "evaluation_phase": "test",
+  "exact_match": 0.0,
+  "n": 1127,
+  "prediction_reference_length_ratio": 0.8658181382915054,
+  "rouge_l_f1": 14.982549786588265,
+  "run_name": "no_cab_seed100",
+  "seed": 100,
+  "token_f1": 17.832512705398553,
+  "unique_prediction_rate": 10.64773735581189,
+  "unique_references": 93,
+  "wer": 105.49016478474245
+}

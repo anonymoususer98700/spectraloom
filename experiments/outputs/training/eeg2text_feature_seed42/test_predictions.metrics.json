@@ -1,0 +1,33 @@
+{
+  "bleu_1": 17.06070127948453,
+  "bleu_2": 2.877159933705385,
+  "bleu_3": 0.2653672442366676,
+  "bleu_4": 0.06883946277766681,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "cer": 81.60480519886275,
+  "checkpoint": "C:\\Users\\USER\\Desktop\\Design Projects and Research Papers\\EEG-to-Text-Generation-3\\experiments\\outputs\\training\\eeg2text_feature_seed42\\best.pt",
+  "checkpoint_sha256": "e0d1902d478098e22f2d0119d2767149b634da71843141bba24aae7c7adb95d3",
+  "chrf": 11.835902471727325,
+  "corpus_bleu": 0.06883946277766681,
+  "decoding": {
+    "length_penalty": 1.4,
+    "max_length": 32,
+    "min_new_tokens": 0,
+    "no_repeat_ngram_size": 2,
+    "num_beams": 5,
+    "repetition_penalty": 1.5
+  },
+  "elapsed_seconds": 56.10205125808716,
+  "empty_prediction_rate": 0.0,
+  "evaluation_phase": "test",
+  "exact_match": 0.0,
+  "n": 1127,
+  "prediction_reference_length_ratio": 0.8299884291585206,
+  "rouge_l_f1": 16.40292276036151,
+  "run_name": "eeg2text_feature_seed42",
+  "seed": 42,
+  "token_f1": 19.86854009502843,
+  "unique_prediction_rate": 0.7985803016858918,
+  "unique_references": 93,
+  "wer": 101.16905398396042
+}

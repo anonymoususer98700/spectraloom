@@ -1,0 +1,6 @@
+{
+  "best_checkpoint_sha256": "2b3c04936e5ee2ef73b8d270e12e27c8f353ece81553cc95fab127f70085be47",
+  "best_dev_loss": 3.425456712571837,
+  "elapsed_seconds": 2110.626255750656,
+  "epochs_completed": 21
+}

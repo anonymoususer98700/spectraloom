@@ -1,0 +1,33 @@
+{
+  "bleu_1": 14.275911757642294,
+  "bleu_2": 4.312352901851269,
+  "bleu_3": 1.183950447634742,
+  "bleu_4": 0.28329466366965134,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "cer": 98.3831661823976,
+  "checkpoint": "C:\\Users\\USER\\Desktop\\Design Projects and Research Papers\\EEG-to-Text-Generation-3\\experiments\\outputs\\training\\braintranslator_bart_seed42\\best.pt",
+  "checkpoint_sha256": "0c10bfc3e07a2cbfc1c9a8111544f604661da21483ca1bf03dd8eaac56ac0075",
+  "chrf": 17.605624509916,
+  "corpus_bleu": 0.28329466366965134,
+  "decoding": {
+    "length_penalty": 1.4,
+    "max_length": 32,
+    "min_new_tokens": 0,
+    "no_repeat_ngram_size": 2,
+    "num_beams": 5,
+    "repetition_penalty": 1.5
+  },
+  "elapsed_seconds": 69.43473553657532,
+  "empty_prediction_rate": 0.0,
+  "evaluation_phase": "test",
+  "exact_match": 0.0,
+  "n": 1127,
+  "prediction_reference_length_ratio": 1.162949367593664,
+  "rouge_l_f1": 12.544632366009104,
+  "run_name": "braintranslator_bart_seed42",
+  "seed": 42,
+  "token_f1": 15.22328281274659,
+  "unique_prediction_rate": 0.7985803016858918,
+  "unique_references": 93,
+  "wer": 120.97913258588358
+}

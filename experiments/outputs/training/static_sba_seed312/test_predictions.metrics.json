@@ -1,0 +1,33 @@
+{
+  "bleu_1": 9.062312749512271,
+  "bleu_2": 1.6262980377620435,
+  "bleu_3": 0.17365990628192063,
+  "bleu_4": 0.048980949561429364,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "cer": 81.23535476614491,
+  "checkpoint": "C:\\Users\\USER\\Desktop\\Design Projects and Research Papers\\EEG-to-Text-Generation-3\\experiments\\outputs\\training\\static_sba_seed312\\best.pt",
+  "checkpoint_sha256": "d57bd0aeff6c06cf48167d80bba63fb1c987ef688e8c1dc284c476a81172208a",
+  "chrf": 7.854232415950565,
+  "corpus_bleu": 0.048980949561429364,
+  "decoding": {
+    "length_penalty": 1.4,
+    "max_length": 32,
+    "min_new_tokens": 0,
+    "no_repeat_ngram_size": 2,
+    "num_beams": 5,
+    "repetition_penalty": 1.5
+  },
+  "elapsed_seconds": 51.363667488098145,
+  "empty_prediction_rate": 0.0,
+  "evaluation_phase": "test",
+  "exact_match": 0.0,
+  "n": 1127,
+  "prediction_reference_length_ratio": 0.5570362686031202,
+  "rouge_l_f1": 13.54633835673793,
+  "run_name": "static_sba_seed312",
+  "seed": 312,
+  "token_f1": 14.987532864931518,
+  "unique_prediction_rate": 2.750665483584738,
+  "unique_references": 93,
+  "wer": 95.7387383792842
+}

@@ -1,0 +1,33 @@
+{
+  "bleu_1": 18.79635718413686,
+  "bleu_2": 4.1440575730336535,
+  "bleu_3": 1.6512609140719265,
+  "bleu_4": 0.7898568009748667,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "cer": 83.30443340519261,
+  "checkpoint": "C:\\Users\\USER\\Desktop\\Design Projects and Research Papers\\EEG-to-Text-Generation-3\\experiments\\outputs\\training\\t5_large_seed42\\best.pt",
+  "checkpoint_sha256": "225df8841388630ac79e8a11b725ef4d6aa3ff1bfc0dfa68958efd8a1bf493e0",
+  "chrf": 14.734731666675899,
+  "corpus_bleu": 0.7898568009748667,
+  "decoding": {
+    "length_penalty": 1.4,
+    "max_length": 32,
+    "min_new_tokens": 0,
+    "no_repeat_ngram_size": 2,
+    "num_beams": 5,
+    "repetition_penalty": 1.5
+  },
+  "elapsed_seconds": 99.72133922576904,
+  "empty_prediction_rate": 0.0,
+  "evaluation_phase": "test",
+  "exact_match": 0.0,
+  "n": 1127,
+  "prediction_reference_length_ratio": 0.8552447831464709,
+  "rouge_l_f1": 16.7347642110893,
+  "run_name": "t5_large_seed42",
+  "seed": 42,
+  "token_f1": 20.71609327659993,
+  "unique_prediction_rate": 13.57586512866016,
+  "unique_references": 93,
+  "wer": 100.36308502573515
+}

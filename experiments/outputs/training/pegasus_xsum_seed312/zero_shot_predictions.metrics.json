@@ -1,0 +1,33 @@
+{
+  "bleu_1": 8.363626865100407,
+  "bleu_2": 2.278879389948434,
+  "bleu_3": 0.3815065718158281,
+  "bleu_4": 0.06500143512165672,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "cer": 80.09907420710357,
+  "checkpoint": "C:\\Users\\USER\\Desktop\\Design Projects and Research Papers\\EEG-to-Text-Generation-3\\experiments\\outputs\\training\\pegasus_xsum_seed312\\best.pt",
+  "checkpoint_sha256": "f6bbf8592f6cfa4d5c8077d617362817baa0f339d4465967c9ac8772062d950a",
+  "chrf": 10.757412375261517,
+  "corpus_bleu": 0.06500143512165672,
+  "decoding": {
+    "length_penalty": 1.4,
+    "max_length": 32,
+    "min_new_tokens": 0,
+    "no_repeat_ngram_size": 2,
+    "num_beams": 5,
+    "repetition_penalty": 1.5
+  },
+  "elapsed_seconds": 261.02826166152954,
+  "empty_prediction_rate": 0.0,
+  "evaluation_phase": "zero_shot",
+  "exact_match": 0.0,
+  "n": 6629,
+  "prediction_reference_length_ratio": 0.5922394337906017,
+  "rouge_l_f1": 12.767084408871062,
+  "run_name": "pegasus_xsum_seed312",
+  "seed": 312,
+  "token_f1": 14.587553736459974,
+  "unique_prediction_rate": 0.03017046311660884,
+  "unique_references": 375,
+  "wer": 94.52754835584228
+}

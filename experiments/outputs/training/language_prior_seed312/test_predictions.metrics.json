@@ -1,0 +1,33 @@
+{
+  "bleu_1": 14.705943769368828,
+  "bleu_2": 4.325043703447726,
+  "bleu_3": 1.4034266256401313,
+  "bleu_4": 0.2853606853074361,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "cer": 80.19183303652326,
+  "checkpoint": "C:\\Users\\USER\\Desktop\\Design Projects and Research Papers\\EEG-to-Text-Generation-3\\experiments\\outputs\\training\\language_prior_seed312\\best.pt",
+  "checkpoint_sha256": "0585a1377eff5faa0c65facb511af917b88aec311a8a36f75da43c0b48b05baa",
+  "chrf": 10.881581425692973,
+  "corpus_bleu": 0.2853606853074361,
+  "decoding": {
+    "length_penalty": 1.4,
+    "max_length": 32,
+    "min_new_tokens": 0,
+    "no_repeat_ngram_size": 2,
+    "num_beams": 5,
+    "repetition_penalty": 1.5
+  },
+  "elapsed_seconds": 48.02675700187683,
+  "empty_prediction_rate": 0.0,
+  "evaluation_phase": "test",
+  "exact_match": 0.0,
+  "n": 1127,
+  "prediction_reference_length_ratio": 0.7644336272593065,
+  "rouge_l_f1": 15.603474449095946,
+  "run_name": "language_prior_seed312",
+  "seed": 312,
+  "token_f1": 17.951277233494523,
+  "unique_prediction_rate": 0.08873114463176575,
+  "unique_references": 93,
+  "wer": 99.44140765271516
+}
